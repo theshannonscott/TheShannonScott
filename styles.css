@@ -1,0 +1,60 @@
+body {
+    font-family: "Prompt", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    font-size: 20px;
+font-weight: 500;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(161, 61%, 45%);
+    padding: 20px;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialMedia {
+    display: flex;
+    gap: 10px;
+}
+
+.titleScott {
+    color: white;
+}
+
+.igQuote {
+    text-align: center;
+    padding: 50px;
+    font-size: 80px;
+    color: hsl(161, 61%, 45%);
+    font-weight: 800;
+}
+
+.footer {
+    background-color:hsl(161, 61%, 45%);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.footSite {
+    color: white;
+}
