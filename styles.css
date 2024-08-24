@@ -14,17 +14,33 @@ ul{
     color: white;
     padding: 0;
     margin: 0;
-    gap: 10px;
-    font-size: 20px;
+    gap: 1vw;
+    font-size: 2.5vw;
 font-weight: 500;
 }
 
-.header {
+
+/* Navigation */
+.nav {
     display: flex;
     justify-content: space-between;
     background-color: hsl(161, 61%, 45%);
-    padding: 20px;
+    padding: 2vw 4vw;
+    border-radius: 3vw;
+    margin: 2vw;
 }
+
+.nav a {
+text-decoration: none;
+color: white;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 2.8vw;
+    font-weight: 700;
+    }
 
 .navBar {
     display: flex;
@@ -33,28 +49,75 @@ font-weight: 500;
 }
 .socialMedia {
     display: flex;
-    gap: 10px;
+    gap: 1vw;
 }
 
-.titleScott {
-    color: white;
+.socialMedia img {
+    height: 5vw;
 }
 
-.igQuote {
-    text-align: center;
-    padding: 50px;
-    font-size: 80px;
+.socialMedia a img:hover {
+    height: 6vw;
+}
+
+/* Header */
+
+.head {
+
+}
+
+.blogName {
+    font-size: 5vw;
     color: hsl(161, 61%, 45%);
     font-weight: 800;
+    line-height: 2;
+    padding-left: 5vw;
 }
 
-.footer {
+.descriptions h1 {
+    font-size: 2.8vw;
+    color: hsl(161, 61%, 45%);
+    font-weight: 300;
+    line-height: 1;
+    padding-left: 15vw;
+    padding-bottom: 5vw;
+}
+
+/* .footer {
     background-color:hsl(161, 61%, 45%);
     display: flex;
-    padding: 20px;
-    justify-content: center;
+    padding: 2vw;
+    justify-content: flex-end;
 }
 
 .footSite {
     color: white;
+    font-weight: 500;
+    font-size: 3vw;
+}*/
+
+.blogSpace {
+    margin: 2vw;
+display: flex;
 }
+
+
+
+.blogOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.blogOne img {
+    border-radius: 2vw;
+    height: 30vw;
+}
+
+.blogtitle {
+    display: flex;
+ justify-content: center;
+
+}
+
