@@ -1,5 +1,5 @@
 body {
-    font-family: "Prompt", sans-serif;
+    font-family: "Asap", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +27,7 @@ font-weight: 500;
     background-color: hsl(161, 61%, 45%);
     padding: 2vw 4vw;
     border-radius: 3vw;
-    margin: 2vw;
+    margin: 0 2vw 0 2vw;
 }
 
 .nav a {
@@ -66,7 +66,7 @@ color: white;
 
 }
 
-.blogName {
+header {
     font-size: 5vw;
     color: hsl(161, 61%, 45%);
     font-weight: 800;
@@ -97,11 +97,11 @@ color: white;
 }*/
 
 .blogSpace {
-    margin: 2vw;
 display: flex;
+margin: 0 2vw 0 2vw;
 }
 
-
+/* Blog One */
 
 .blogOne{
     display: flex;
@@ -110,14 +110,48 @@ display: flex;
 }
 
 
-.blogOne img {
+.blogOneImage {
     border-radius: 2vw;
     height: 30vw;
 }
 
-.blogtitle {
-    display: flex;
- justify-content: center;
 
+
+.blogOneInfo {
+    padding: .2vw;
 }
 
+.blogOneInfo a {
+    text-decoration: none;
+    color: hsl(161, 61%, 45%);
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.blogOneInfo a:hover {
+    color: hsl(161, 61%, 45%);
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+.blogHeader {
+    color: hsl(161, 61%, 45%);
+    font-weight: 900;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+/* Who is the Shannon Scott */
+
+.divider {
+    background-color: hsl(161, 61%, 45%);
+    height: 4vw;
+    margin: 8vw 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+    padding: 5vw 0 5vw 0;
+}
